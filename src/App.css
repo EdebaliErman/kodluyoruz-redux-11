@@ -1,0 +1,118 @@
+html{
+  background-color: rgb(117, 116, 116);
+
+}
+.App {
+  text-align: center;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+input,button{
+  text-align: left;
+  color: aliceblue;
+  text-shadow: 1px 1px 1px rgba(70, 69, 68, 0.336), -1px -1px 12px rgb(105, 103, 103), 1px 1px 3px rgb(201, 133, 8);
+ border-radius: 1rem;
+ margin: 3rem;
+ font-size: 2rem;
+ padding: 1rem;
+}
+.weatherCard {
+  
+  background-color: rgba(199, 199, 197, 0.267);
+  box-shadow:  1px 1px 1rem 12px rgba(0, 0, 0, 0.568);
+
+  justify-content: center;
+  display: inline-block;
+  align-items: center;
+  padding: 3rem;
+  margin: 3rem;
+  border-radius: 1rem;
+  gap: 1rem;
+  color: aliceblue;
+  text-shadow: 1px 1px 1px rgba(70, 69, 68, 0.336), -1px -1px 12px rgb(236, 230, 230), 1px 1px 3px rgb(201, 133, 8);
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.weatherCardSeven {
+  display: flex;
+  width: 95%;
+  margin: 15px auto 0 auto;
+  overflow: auto;
+  box-shadow:  1px 1px 1rem 12px rgba(0, 0, 0, 0.568);
+border-radius: 1rem;
+padding: 1rem 0.5rem;
+
+}
+.weatherCardSeven::-webkit-scrollbar{
+  height:.6rem;
+  opacity: 1;
+  border-radius: .4rem;
+  width: 300rem;
+  padding: 5rem;
+  visibility: visible;
+}
+.weatherCardSevenItem{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: aliceblue;
+  background-color: rgba(199, 199, 197, 0.267);
+  box-shadow:  1px 1px 1rem 12px rgba(0, 0, 0, 0.568);
+text-transform: capitalize;
+  height: 30rem;
+  width: 20rem;
+  padding: 3rem;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  font-size: 2.3rem;
+}
+footer {
+  text-align: center;
+  font-size: 2.8em;
+  line-height: 30px;
+  margin-top: 20px;
+  color: #eeedeb;
+  text-shadow: 1px 1px 1px rgba(70, 69, 68, 0.336), -1px -1px 5px rgb(236, 230, 230), 1px 1px 3px rgb(201, 133, 8);
+
+}
+
+footer a {
+  text-decoration: none;
+  color: #eeedeb;
+  margin: 1rem;
+  font-size: 2.8em;
+
+  text-shadow: 1px 1px 1px rgba(70, 69, 68, 0.336), -1px -1px 12px rgb(236, 230, 230), 1px 1px 3px rgb(201, 133, 8);
+
+}
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #FFF;
+  border-bottom-color: #FF3D00;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  }
+
+  @keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+  } 
